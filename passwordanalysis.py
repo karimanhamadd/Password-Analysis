@@ -16,7 +16,7 @@ def main():
 		print("Usage: %s" % sys.argv[0])
 		return 1;
 
-	# ADD YOUR CODE HERE
+
 	for password in sys.stdin:
 		#iterate over passwords from stdin
 		password = password.strip()
